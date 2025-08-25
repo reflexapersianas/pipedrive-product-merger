@@ -23,7 +23,7 @@ def delete_empty_products(products: dict) -> dict:
 if __name__ == "__main__":
     import json
 
-    products_path = "output/2_deal_ids copy.json"
+    products_path = "output/2_deal_ids.json"
 
     with open(products_path, "r", encoding="utf-8") as f:
         products = json.load(f)
